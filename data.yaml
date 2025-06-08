@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['BAD_APPLE', 'BAD_JACKFRUIT', 'BAD_MANGO', 'BAD_ORANGE', 'BAD_STRAWBERRY', 'GOOD_APPLE', 'GOOD_JACKFRUIT', 'GOOD_MANGO', 'GOOD_ORANGE', 'GOOD_STRAWBERRY']
+
+roboflow:
+  workspace: proejcts
+  project: fruit-detection-noeko
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/proejcts/fruit-detection-noeko/dataset/1
